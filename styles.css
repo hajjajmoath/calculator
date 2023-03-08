@@ -5,11 +5,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 #calculator {
     width: 350px;
-    height: 620px;
+    height: 610px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -24,6 +25,8 @@ body {
     height: 190px;
     background-color: #EBEFFA;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
 }
 
 #keys {
@@ -36,30 +39,66 @@ body {
     margin: 3px;
     border-radius: 50%;
     border: none;
-    background-color: #F8F9FD;
+    background-color: rgb(248, 249, 253);
     color: #011D35;
     font-size: 2.2rem;
+    transition: background-color 0.5s ease;
+    transition: border-radius 0.3s ease;
 }
 
-.zero{
+.zero {
     width: 150px;
     border-radius: 50px;
 }
 
 .operator {
-    background-color: #C3E7FF;
+    background-color: rgb(195, 231, 255);
 }
 
 .clear {
-    background-color: #C3EED0;
+    background-color: rgb(195, 238, 208);
+    font-size: 1.5rem;
+}
+
+.all-clear {
+    background-color: rgb(195, 238, 208);
+    width: 150px;
+    border-radius: 50px; 
+    font-size: 2rem;
 }
 
 .equals {
-    background-color: #D3E3FD;
+    background-color: rgb(211, 227, 253);
+}
+
+.btn:hover {
+    background-color: rgb(222, 225, 235);
+    border-radius: 25px;
+}
+
+.operator:hover {
+    background-color: rgb(132, 178, 224);
+}
+  
+.clear:hover {
+    background-color: rgb(149, 213, 165);
+}
+
+.all-clear:hover {
+    background-color: rgb(149, 213, 165);
+}
+  
+.equals:hover {
+    background-color: rgb(162, 185, 225);
 }
 
 .output {
     color: #011D35;
     font-size: 5rem;
     padding: 15px;
+    border-radius: 25px;
+    height: 100px;
+    width: 300px;
+    text-align: end;
+    overflow: hidden;
 }

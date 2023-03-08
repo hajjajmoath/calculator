@@ -1,4 +1,3 @@
-const number = document.getElementsByClassName('number');
-const operator = document.getElementsByClassName('operator');
-
-number.style.color = 'red';
+const output = document.getElementsByClassName('output');
+const numberButtons = document.querySelectorAll('[data-number]');
+const operatorButtons = document.querySelectorAll('[data-operator]');

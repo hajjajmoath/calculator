@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
 </head>
 <body>
     <div id="calculator">
         <div id="display">
-            <p class="output"></p>
+            <p class="output">0</p>
         </div>
         <div id="keys">
-            <button class="btn clear">C</button>
-            <button class="btn operator">()</button>
-            <button class="btn operator">%</button>
-            <button class="btn operator">÷</button>
-            <button class="btn number">7</button>
-            <button class="btn number ">8</button>
-            <button class="btn number ">9</button>
-            <button class="btn number operator">×</button>
-            <button class="btn number ">4</button>
-            <button class="btn number ">5</button>
-            <button class="btn number ">6</button>
-            <button class="btn number operator">−</button>
-            <button class="btn number ">1</button>
-            <button class="btn number ">2</button>
-            <button class="btn number ">3</button>
-            <button class="btn operator">+</button>
-            <button class="btn number zero">0</button>
-            <button class="btn number ">.</button>
+            <button class="btn all-clear">AC</button>
+            <button class="btn clear material-icons">&#xe14a</button>
+
+            <button class="btn operator" data-operator>÷</button>
+
+            <button class="btn number" data-number>7</button>
+            <button class="btn number" data-number>8</button>
+            <button class="btn number" data-number>9</button>
+
+            <button class="btn operator" data-operator>×</button>
+
+            <button class="btn number" data-number>4</button>
+            <button class="btn number" data-number>5</button>
+            <button class="btn number" data-number>6</button>
+
+            <button class="btn operator" data-operator>−</button>
+
+            <button class="btn number" data-number>1</button>
+            <button class="btn number" data-number>2</button>
+            <button class="btn number" data-number>3</button>
+
+            <button class="btn operator" data-operator>+</button>
+
+            <button class="btn number zero" data-number>0</button>
+            <button class="btn number" data-number>.</button>
+            
             <button class="btn equals">=</button>
         </div>
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>
