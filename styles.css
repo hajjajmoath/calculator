@@ -57,3 +57,9 @@ body {
 .equals {
     background-color: #D3E3FD;
 }
+
+.output {
+    color: #011D35;
+    font-size: 5rem;
+    padding: 15px;
+}
