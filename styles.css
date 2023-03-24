@@ -73,7 +73,6 @@ body {
 
 .btn:hover {
     background-color: rgb(222, 225, 235);
-    border-radius: 25px;
 }
 
 .operator:hover {
@@ -90,6 +89,10 @@ body {
   
 .equals:hover {
     background-color: rgb(162, 185, 225);
+}
+
+.btn:active {
+    border-radius: 30px;
 }
 
 .output {
